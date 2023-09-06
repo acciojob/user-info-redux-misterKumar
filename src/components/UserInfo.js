@@ -19,7 +19,7 @@ const UserInfo = () => {
 
   return (
     <div>
-      <h2>User Information</h2>
+      <h1>User Information</h1>
       <div>
         <label>Name:</label>
         <input
@@ -39,7 +39,7 @@ const UserInfo = () => {
         />
       </div>
       <p>Current Values in store:</p>
-      <div>
+      <div className="output">
         <p>Name - {user.name}</p>
         <p>Email - {user.email}</p>
       </div>
